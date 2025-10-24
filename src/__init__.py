@@ -1,0 +1,5 @@
+"""
+World of Doors Pipecat Voice Bot
+"""
+
+__version__ = "1.0.0"

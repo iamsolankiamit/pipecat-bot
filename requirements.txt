@@ -1,0 +1,21 @@
+# Core dependencies
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-dotenv==1.0.0
+aiohttp==3.11.12
+pydantic>=2.10.6
+
+# Pipecat and AI services
+pipecat-ai[daily,deepgram,openai,silero]==0.0.91
+pipecat-ai-flows>=0.0.21
+anthropic>=0.71.0
+
+# Daily.co for WebRTC
+daily-python~=0.20.0
+
+# Twilio for phone integration
+twilio==8.13.0
+
+# Additional utilities
+python-multipart==0.0.6
+loguru~=0.7.3
